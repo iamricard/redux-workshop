@@ -19,3 +19,8 @@ each section will be in a folder in root, e.g. `redux`. to run that section use
 
 * react-redux
   * combines the two previous workshops
+
+* jest?
+  * for now you can take a look at [this project]
+
+[this project]: https://github.com/rcsole/jest-workshop
