@@ -49,7 +49,7 @@ now that you have both those actions complete the following tasks:
 
 * [ ] have the button trigger **REQUEST** gifs
 * [ ] after the **REQUEST** action has been dispatched wait 2s using
-`setTimeout` and dispatch and action which **RECEIVE** s the gifs that you
+`setTimeout` and dispatch and action which **RECEIVE**s the gifs that you
 hardcoded in a variable
 
 ### part three
