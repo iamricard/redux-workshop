@@ -15,6 +15,7 @@
   },
   "scripts": {
     "start": "budo $X/index.js:static/bundle.js --dir $X --live -- -t babelify",
+    "redux": "X=redux npm start",
     "test": "jest"
   },
   "repository": {

@@ -7,7 +7,7 @@ workshop @xing for knowledge transfer
 ## running sections
 
 each section will be in a folder in root, e.g. `redux`. to run that section use
-`X=redux npm start` -make sure to install npm packages first-.
+`npm run redux` -make sure to install npm packages first-.
 
 ## sections
 
