@@ -46,14 +46,19 @@ function gifs(state = DEFAULT_STATE, action) {
 const store = createStore(gifs);
 
 // view
-store.subscribe((...args) => {
-  const el = $('#gifs')
-  const html = store
-    .getState()
-    .gifs.map(({ images }) => `<div><img src="${images.original.url}"></div>`)
-    .join('\n')
+store.subscribe(() => {
+  const el = $('#gifs');
+  const { gifs, isLoading } = store.getState();
 
-  if (html === el.html()) return
+  if (isLoading) {
+    return el.html('LOADING...');
+  }
+
+  const html = gifs
+    .map(({ images }) => `<div><img src="${images.original.url}"></div>`)
+    .join('\n');
+
+  if (html === el.html()) return;
 
   el.html(html);
 });
