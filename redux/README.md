@@ -1,12 +1,13 @@
 # redux
 
-in this part of the workshop we will focus on learning how redux works with, no
-`React` or other view libraries. We will use something most people are familiar
-with, `jQuery`. Don't worry about build steps, all of is provided for you.
+in this part of the workshop we will focus on learning how redux works. we won't
+use `React` and other _modern_ view libraries, instead we'll use plain
+javascript functions and `jQuery` for dom manipulation. if you'd rather use
+vanilla JS or `zepto` or `umbrellajs`, by all means replace them for `jQuery`.
 
 ## what is redux?
 
-redux is _convenient_ way to manage your state. The easiest way to think about
+redux is _convenient_ way to manage your state. the easiest way to think about
 in, in my opinion, is this:
 
 there are actions (which get **dispatched**) that enunciate **state** changes.

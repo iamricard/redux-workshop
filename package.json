@@ -2,20 +2,23 @@
   "name": "redux-workshop",
   "version": "1.0.0",
   "devDependencies": {
-    "babel-cli": "^6.23.0",
+    "babel-cli": "6.23.0",
     "babel-preset-env": "1.2.1",
+    "babel-preset-react": "6.23.0",
     "babelify": "7.3.0",
     "budo": "9.4.7",
     "jest": "19.0.2",
     "jquery": "3.1.1",
     "react": "15.4.2",
+    "react-dom": "15.4.2",
     "react-redux": "5.0.3",
     "redux": "3.6.0",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "2.2.0"
   },
   "scripts": {
-    "start": "budo $X/index.js:static/bundle.js --dir $X --live -- -t babelify",
+    "start": "budo $X/index.js:static/bundle.js --dir $X --live -- -t [ babelify --presets [ env react ] ]",
     "redux": "X=redux npm start",
+    "react": "X=react npm start",
     "test": "jest"
   },
   "repository": {

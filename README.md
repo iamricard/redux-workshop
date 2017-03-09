@@ -12,10 +12,10 @@ each section will be in a folder in root, e.g. `redux`. to run that section use
 ## sections
 
 * [redux](https://github.com/rcsole/redux-workshop/tree/master/redux)
-  * works on redux with jquery
+  * works on redux without view libraries
 
-* react (TBD)
-  * works on react and its internal state
+* [react](https://github.com/rcsole/redux-workshop/tree/master/react)
+  * works on react without state management libraries
 
 * react-redux
   * combines the two previous workshops
