@@ -88,7 +88,29 @@ need to be a separate component
 
 > **Tip**: props **can** be functions
 
+### part three
+
+ok, hopefully what you've seen so far has been _easy_ and you've enjoyed it. now
+it's time to scratch pretty much everything we've built, we will be building
+something slightly more complex! with ajax requests and everything. we'll be
+using the [spotify api], so try going through the [search] and [track]
+resources.
+
+here's your checklist:
+
+* [ ] create an input and button, when the button is clicked you should query
+spotify's [search] endpoint, the query should be the value of the input. there
+should be a default value for the query
+* [ ] display the results (hint: use components!)
+* [ ] create a placeholder player (example below)
+* [ ] when the user clicks on a result from the list the player should fill
+up with the data from that result
+* [ ] make the player be playable!
+
 [attach event listeners to user interactions]: https://facebook.github.io/react/docs/handling-events.html
 [stateless components]: http://buildwithreact.com/article/stateless-functional-components
 [class components]: https://facebook.github.io/react/docs/components-and-props.html#functional-and-class-components
 [react docs]: https://facebook.github.io/react/docs
+[spotify api]: https://developer.spotify.com/web-api/
+[search]: https://developer.spotify.com/web-api/search-item/
+[track]: https://developer.spotify.com/web-api/get-track/
